@@ -32,10 +32,10 @@ You need a C++ compiler (like g++ or Visual Studio) to compile and run these fil
     ```
 2.  **Compile the file (e.g., for School Transport Service):**
     ```bash
-    g++ schooltransportservice.cpp -o transport
+    g++ schooltransportservice.cpp -o schooltransportservice
     ```
 3.  **Run the executable:**
     ```bash
-    ./transport
+    ./schooltransportservice
     ```
-    The program will then prompt you for the required input (e.g., the number of students and their fees).
+    The program will then prompt you for the required input (e.g., the number of students and their fees)
