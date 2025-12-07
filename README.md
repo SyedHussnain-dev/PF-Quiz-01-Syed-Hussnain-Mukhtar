@@ -1,4 +1,41 @@
-PRACTICE QUIZ QUESTION
-Write a program for a juice shop. Read N juices sold and price of each. If price < 100 tag “Small Juice”. Sum total and count. Use IO, variables, loops and if/else. 
-MAIN QUIZ#01 QUESTION
-Write a program for a school transport service. Read N students and monthly bus fee for each. If fee < 900 print “Concession Given”. Display the total of all fees and the number of students with concession. Use variables, input/output, loops and if/else.
+
+This repository contains  solutions for quiz questions, focusing on fundamental programming concepts like variables, loops, input/output, and conditional logic (`if/else`).
+
+##  Quiz Questions & Requirements
+
+### 1. Main Quiz #01: School Transport Service
+
+**Objective:** Write a program to manage fees for a school transport service.
+* **Input:** Read $N$ students and the monthly bus fee for each.
+* **Logic:** If a student's monthly fee is less than 900, print "Concession Given".
+* **Output:** Display the total of all fees collected and the total number of students who received a concession.
+* **Concepts Used:** Variables, Input/Output, Loops, and `if/else` statements.
+
+### 2. Practice Quiz Question: Juice Shop
+
+**Objective:** Write a program to manage sales for a juice shop.
+* **Input:** Read $N$ juices sold and the price of each.
+* **Logic:** If the price is less than 100, tag the item as "Small Juice".
+* **Output:** Sum the total revenue and count the number of "Small Juice" items.
+* **Concepts Used:** Variables, Loops, and `if/else` statements.
+
+### Prerequisites
+
+You need a C++ compiler (like g++ or Visual Studio) to compile and run these files.
+
+### Compilation and Execution
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your Repository URL]
+    cd Quiz
+    ```
+2.  **Compile the file (e.g., for School Transport Service):**
+    ```bash
+    g++ schooltransportservice.cpp -o transport
+    ```
+3.  **Run the executable:**
+    ```bash
+    ./transport
+    ```
+    The program will then prompt you for the required input (e.g., the number of students and their fees).
